@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif; /*browsers will set verdana font, if its not, then it will set  to snas-serif
+                                      verdana is the member of the font-family class */
+  color: #40514E;
+}
+h1{
+  font-size: 5.625rem; /*fontsize in 100% is 16px if we want 90px i.e 90/16 = 562.5% / 5.625em (OR) we can use em so 1em = 16px = 100%*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #6AF6F6;
+}
+p{
+  line-height: 2;
+}
+.top{
+  background-color: #CBF1F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle{
+  margin: 100px 0;
+
+}
+.bottom{
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+  padding-top: 50px;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.s1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.s2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+hr{
+  border-style:dotted none none;
+  border-width: thick;
+  border-color: #EAF6F6;
+  width:3%;
+  margin: 100px auto;
+}
+.p1{
+  color: #40515E;
+  width: 30%;
+  margin: auto;
+}
+.p4{
+  margin: 40px auto 60px;
+}
+.p5{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00a6a6;
+  text-decoration: none;
+}
